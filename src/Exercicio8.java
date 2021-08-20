@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio13 {
+public class Exercicio8 {
 
 	public static void main(String[] args) {
 		
@@ -9,10 +9,7 @@ public class Exercicio13 {
 		double homemhora;
 		double horames;
 		double salariobruto;
-		double ir,inss,sindicato;
-		double salarioliquido;
-		
-		
+				
 		System.out.println("Digite o valor que você ganha por hora: ");
 		homemhora= in.nextDouble();
 		
@@ -20,22 +17,10 @@ public class Exercicio13 {
 		horames= in.nextDouble();
 		
 		salariobruto= homemhora*horames;
-		
-		ir= 11*salariobruto/100;
-		inss= 8*salariobruto/100;
-		sindicato= 5*salariobruto/100;
-		
-		salarioliquido= salariobruto-ir-inss-sindicato;
-		
+			
 		System.out.println("Seu salario bruto é: R$ "+salariobruto);
-		System.out.println("Você pagou ao IR: R$ "+ir);
-		System.out.println("Você pagou ao INSS: R$ "+inss);
-		System.out.println("Você pagou ao Sindicato: R$ "+sindicato);
-		System.out.println("Seu salario liquido é de: R$ "+salarioliquido);
 		
 
 	}
 
 }
-
-
